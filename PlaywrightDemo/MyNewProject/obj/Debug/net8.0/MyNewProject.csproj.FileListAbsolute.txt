@@ -1,0 +1,15 @@
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\bin\Debug\net8.0\MyNewProject.exe
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\bin\Debug\net8.0\MyNewProject.deps.json
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\bin\Debug\net8.0\MyNewProject.runtimeconfig.json
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\bin\Debug\net8.0\MyNewProject.dll
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\bin\Debug\net8.0\MyNewProject.pdb
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\MyNewProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\MyNewProject.AssemblyInfoInputs.cache
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\MyNewProject.AssemblyInfo.cs
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\MyNewProject.csproj.CoreCompileInputs.cache
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\MyNewProject.sourcelink.json
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\MyNewProject.dll
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\refint\MyNewProject.dll
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\MyNewProject.pdb
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\MyNewProject.genruntimeconfig.cache
+C:\Users\johne\OneDrive\Escritorio\stuff\Aerosan\dotnet\PlaywrightAutomation\PlaywrightDemo\MyNewProject\obj\Debug\net8.0\ref\MyNewProject.dll

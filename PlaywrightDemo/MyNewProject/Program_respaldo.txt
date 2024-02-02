@@ -1,0 +1,128 @@
+﻿class Tarea
+{
+    public string Titulo { get; set; }
+    public string Descripcion { get; set; }
+    public bool Completada { get; set; }
+}
+
+class Program
+{
+    static List<Tarea> tareas = new List<Tarea>();
+
+    static void Main(string[] args)
+    {
+        while (true)
+        {
+            Console.WriteLine("1. Crear tarea");
+            Console.WriteLine("2. Listar tareas");
+            Console.WriteLine("3. Marcar tarea como completada");
+            Console.WriteLine("4. Editar tarea");
+            Console.WriteLine("5. Eliminar tarea");
+            Console.WriteLine("6. Salir");
+            Console.Write("Elige una opción: ");
+
+            string opcion = Console.ReadLine();
+
+            switch (opcion)
+            {
+                case "1":
+                    CrearTarea();
+                    break;
+                case "2":
+                    ListarTareas();
+                    break;
+                case "3":
+                    MarcarTareaComoCompletada();
+                    break;
+                case "4":
+                    EditarTarea();
+                    break;
+                case "5":
+                    EliminarTarea();
+                    break;
+                case "6":
+                    return;
+                default:
+                    Console.WriteLine("Opción no válida");
+                    break;
+            }
+        }
+    }
+
+    // Aquí irán las funciones para crear, listar, marcar como completada, editar y eliminar tareas
+    static void CrearTarea()
+    {
+        Console.Write("Introduce el título de la tarea: ");
+        string titulo = Console.ReadLine();
+
+        Console.Write("Introduce la descripción de la tarea: ");
+        string descripcion = Console.ReadLine();
+
+        Tarea nuevaTarea = new Tarea { Titulo = titulo, Descripcion = descripcion, Completada = false };
+        tareas.Add(nuevaTarea);
+
+        Console.WriteLine("Tarea creada con éxito.");
+    }
+
+    static void ListarTareas()
+    {
+        for (int i = 0; i < tareas.Count; i++)
+        {
+            string estado = tareas[i].Completada ? "Completada" : "Pendiente";
+            Console.WriteLine($"{i + 1}. {tareas[i].Titulo} - {tareas[i].Descripcion} - {estado}");
+        }
+    }
+
+    static void MarcarTareaComoCompletada()
+    {
+        Console.Write("Introduce el número de la tarea que quieres marcar como completada: ");
+        int numeroTarea = int.Parse(Console.ReadLine());
+
+        if (numeroTarea < 1 || numeroTarea > tareas.Count)
+        {
+            Console.WriteLine("Número de tarea no válido.");
+            return;
+        }
+
+        tareas[numeroTarea - 1].Completada = true;
+        Console.WriteLine("Tarea marcada como completada.");
+    }
+
+    static void EditarTarea()
+    {
+        Console.Write("Introduce el número de la tarea que quieres editar: ");
+        int numeroTarea = int.Parse(Console.ReadLine());
+
+        if (numeroTarea < 1 || numeroTarea > tareas.Count)
+        {
+            Console.WriteLine("Número de tarea no válido.");
+            return;
+        }
+
+        Console.Write("Introduce el nuevo título de la tarea: ");
+        string nuevoTitulo = Console.ReadLine();
+
+        Console.Write("Introduce la nueva descripción de la tarea: ");
+        string nuevaDescripcion = Console.ReadLine();
+
+        tareas[numeroTarea - 1].Titulo = nuevoTitulo;
+        tareas[numeroTarea - 1].Descripcion = nuevaDescripcion;
+
+        Console.WriteLine("Tarea editada con éxito.");
+    }
+
+    static void EliminarTarea()
+    {
+        Console.Write("Introduce el número de la tarea que quieres eliminar: ");
+        int numeroTarea = int.Parse(Console.ReadLine());
+
+        if (numeroTarea < 1 || numeroTarea > tareas.Count)
+        {
+            Console.WriteLine("Número de tarea no válido.");
+            return;
+        }
+
+        tareas.RemoveAt(numeroTarea - 1);
+        Console.WriteLine("Tarea eliminada con éxito.");
+    }
+}
